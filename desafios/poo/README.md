@@ -3,6 +3,9 @@
 ## Autores
 - [Gleyson Sampaio](https://github.com/glysns)
 
+## Aluno
+- [Diogo Misael](https://github.com/misaeldiogo)
+
 ## POO - Desafio
 
 ### Modelagem e Diagramação de um Componente iPhone
@@ -31,18 +34,21 @@ Com base no vídeo de lançamento do iPhone de 2007 (link abaixo), você deve el
 ```mermaid
 classDiagram
     class ReprodutorMusical {
-        +exemploMetodo1()
-        +exemploMetodo2(String exemplo)
+        +tocar()
+        +pausar()
+        +selecionarMusica(musica: String)
     }
 
     class AparelhoTelefonico {
-        +exemploMetodo1()
-        +exemploMetodo2(String exemplo)
+        +liga(numero: String)
+        +iniciarCorreioVoz()
+        +atender()
     }
 
     class NavegadorInternet {
-        +exemploMetodo1()
-        +exemploMetodo2(String exemplo)
+        +exibirPagina(url: String)
+        +adicionarNovaAba()
+        +atualizarPagina()
     }
 
     class iPhone {
@@ -62,3 +68,11 @@ classDiagram
 ```bash
 https://github.com/glysns/trilha-java-basico/desafios/poo/README.md
 ```` 
+
+## LINK DO CREATELY
+
+[CREATELY](https://app.creately.com/d/pd0YQasuhwS/view)
+
+## LINK LUCID app
+
+[LUCID APP](https://lucid.app/lucidchart/03a6615a-cc75-4913-b7db-9c4c6fbf0696/edit?viewport_loc=-447%2C73%2C3790%2C1727%2C0_0&invitationId=inv_abe429ef-22cf-48aa-a98e-d626f59bf097)
